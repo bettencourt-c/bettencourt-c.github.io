@@ -13,7 +13,9 @@ header {
 }
 
 .about-container {
-    max-width: 800px;
+    display: flex; 
+    align-items: flex-start;
+    max-width: 800px; 
     margin: auto;
     background: white;
     padding: 20px;
@@ -22,15 +24,14 @@ header {
 }
 
 .headshot {
-    float: left; 
-    width: 25%;
-    max-width: 150px; 
+    width: 150px; 
+    max-width: 100%; 
     height: auto; 
     margin-right: 20px; 
 }
 
 .about-text {
-    overflow: hidden; /* Clear the float */
+    flex: 1; 
 }
 
 nav ul {
