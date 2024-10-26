@@ -62,6 +62,7 @@ header {
 .contact-info p {
     color: RGB(44,45,43);
     margin: 0;
+    text-align: center;
 }
 nav ul {
     list-style: none;
