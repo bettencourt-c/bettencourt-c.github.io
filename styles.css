@@ -4,8 +4,8 @@ body {
     padding: 20px;
     background-color: RGB(193,192,192);
     color: RGB(44,45,43);
-}
- 
+} 
+
 header {
     background: RGB(148,44,60);
     color: RGB(236,236,236);
@@ -25,7 +25,7 @@ header {
 }
 
 .headshot {
-    width: 200px; 
+    width: 300px; 
     max-width: 100%; 
     height: auto; 
     margin-right: 20px; 
@@ -43,5 +43,13 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
-    color:RGB(236,236,236);
+}
+
+nav ul li a {
+    color: RGB(236,236,236);
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
 }
