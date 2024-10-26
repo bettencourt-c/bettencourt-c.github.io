@@ -15,6 +15,7 @@ header {
 
 .about-container {
     display: flex; 
+    flex-wrap: wrap;
     align-items: flex-start;
     max-width: 1000px; 
     margin: auto;
@@ -32,10 +33,10 @@ header {
 }
 
 .about-text {
-    flex: 1; 
+    flex: 1 1 300px; 
 }
 
-.contact-container {
+.contact-info {
     display: flex; 
     align-items: flex-start;
     max-width: 1000px; 
