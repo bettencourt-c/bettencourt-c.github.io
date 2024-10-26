@@ -52,6 +52,20 @@ header {
     margin-bottom: 1em;
     text-align: center;
 }
+
+.contact-info a {
+    color: RGB(44,45,43)
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    color: RGB(44,45,43);
+    margin: 0;
+}
 nav ul {
     list-style: none;
     padding: 0;
