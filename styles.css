@@ -44,12 +44,12 @@ header {
     max-width: 1000px; 
     margin: auto;
     background: RGB(236,236,236);
-    color: RGB(148,44,60);
     padding: 20px;
     border-radius: 8px;
 }
 
 .contact-info a {
+    color: RGB(148,44,60);
     text-decoration: none;
 }
 
@@ -58,6 +58,7 @@ header {
 }
 
 .contact-info p {
+    color: RGB(148,44,60);
     margin: 0;
     text-align: center;
 }
