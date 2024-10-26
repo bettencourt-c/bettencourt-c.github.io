@@ -39,6 +39,8 @@ header {
 .contact-info {
     display: flex; 
     align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     max-width: 1000px; 
     margin: auto;
     background: RGB(236,236,236);
@@ -47,11 +49,6 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact-info h3 {
-    display: block;
-    margin-bottom: 1em;
-    text-align: center;
-}
 
 .contact-info a {
     color: RGB(44,45,43);
