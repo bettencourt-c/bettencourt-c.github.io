@@ -12,7 +12,7 @@ header {
     text-align: center;
 }
 
-about-container {
+.about-container {
     max-width: 800px;
     margin: auto;
     background: white;
@@ -21,16 +21,22 @@ about-container {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-headshot {
+.headshot {
     float: left; 
-    width: 150px; 
+    width: 150px; /* Adjust the width as needed */
     height: auto; 
     margin-right: 20px; 
 }
+
+.about-text {
+    overflow: hidden; /* Clear the float */
+}
+
 nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin: 0 10px;
