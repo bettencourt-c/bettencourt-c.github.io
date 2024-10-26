@@ -2,13 +2,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: #f1efef;
+    background-color: RGB(239,233,226);
 }
+
 header {
-    background: #b49ac3;
-    color: #f1efef;
+    background: RGB(255,175,184);
+    color: RGB(136,122,122);
     padding: 10px 0;
     text-align: center;
+}
+
+about {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+headshot {
+    float: left; 
+    width: 150px; 
+    height: auto; 
+    margin-right: 20px; 
 }
 nav ul {
     list-style: none;
