@@ -23,8 +23,8 @@ header {
 
 .headshot {
     float: left; 
-    width: 150px;
-    max-width: 100%;
+    width: 25%;
+    max-width: 150px; 
     height: auto; 
     margin-right: 20px; 
 }
