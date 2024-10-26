@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: RGB(100,102,99);
-    color: RGB(44,45,43)
+    background-color: RGB(193,192,192);
+    color: RGB(44,45,43);
 }
 
 header {
     background: RGB(148,44,60);
-    color: RGB(44,45,43);
+    color: RGB(236,236,236);
     padding: 10px 0;
     text-align: center;
 } 
@@ -18,7 +18,7 @@ header {
     align-items: flex-start;
     max-width: 1000px; 
     margin: auto;
-    background: RGB(193,192,192);
+    background: RGB(236,236,236);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -43,4 +43,5 @@ nav ul {
 nav ul li {
     display: inline;
     margin: 0 10px;
+    color:RGB(236,236,236);
 }
