@@ -16,7 +16,7 @@ header {
 .about-container {
     display: flex; 
     flex-wrap: wrap;
-    align-items: flex-start;
+    align-items: center;
     max-width: 1000px; 
     margin: auto;
     background: RGB(236,236,236);
@@ -30,7 +30,6 @@ header {
     max-width: 100%; 
     height: auto; 
     margin-right: 20px; 
-    justify-content: center;
 }
 
 .about-text {
@@ -61,7 +60,7 @@ header {
 }
 
 .contact-info p {
-    color: RGB(44,45,43);
+    color: RGB(148,44,60);
     margin: 0;
     text-align: center;
 }
