@@ -36,6 +36,11 @@ header {
     flex: 1 1 300px; 
 }
 
+.about-text a {
+    color: RGB(148,44,60);
+    text-decoration: none;
+}
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
