@@ -12,6 +12,9 @@ header {
     margin: auto;
     padding: 10px 0;
     text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+    align-items: center;
     max-width: 1000px; 
     border-radius: 8px 8px 0px 0px; 
 } 
