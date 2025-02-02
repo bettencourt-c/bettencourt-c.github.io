@@ -2,8 +2,7 @@ body {
     font-family: Helvetica, sans-serif;
     margin: 0;
     padding: 20px;
-    background-color: RGB(144,120,130);
-    //* background-color: RGB(193,192,192); *//
+    background-color: RGB(193,192,192);
     color: RGB(44,45,43);
 } 
 
