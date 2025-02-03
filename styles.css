@@ -44,6 +44,10 @@ header {
     text-decoration: none;
 }
 
+.about-text a:hover {
+    text-decoration: underline;
+}
+
 .contact-info {
     display: flex; 
     align-items: flex-start;
@@ -81,7 +85,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: RGB(97, 63, 77);
+    color: RGB(236,236,236);
     text-decoration: none;
 }
 
